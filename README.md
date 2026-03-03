@@ -145,10 +145,10 @@ export class AppModule {}
 @Injectable()
 export class MultiAiService {
   constructor(
-    @Inject(OPENAI_CLIENT('primary'))
+    @InjectOpenAI('primary')
     private readonly primaryClient: OpenAI,
 
-    @Inject(OPENAI_CLIENT('secondary'))
+    @IInjectOpenAI('secondary')
     private readonly secondaryClient: OpenAI,
   ) {}
 }
