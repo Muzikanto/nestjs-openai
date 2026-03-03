@@ -161,4 +161,3 @@ Contributions are welcome! Please open issues or submit PRs.
 ## Changelog
 
 See [CHANGELOG](https://github.com/Muzikanto/nestjs-mcp/blob/main/CHANGELOG.md) for detailed version history and updates.
-# nestjs-openai
