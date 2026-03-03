@@ -24,7 +24,7 @@ yarn add @muzikanto/nestjs-openai
 yarn add openai
 ```
 
-Peer dependencies: `@nestjs/common, @nestjs/core`
+Peer dependencies: `@nestjs/common, @nestjs/core, openai`
 
 ## Quick Start
 
